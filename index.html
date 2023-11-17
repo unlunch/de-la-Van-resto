@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>de la Van</title>
+
+    <link rel="icon" type="image/x-icon" href="assets/images/logo-192.png">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div id="content">
+        <div>
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a class="navbar-brand text-dark f-bold" href="#">
+                    <img draggable="false" src="./assets/images/logo-512.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                    de la Van
+                </a>
+                <a class="text-dark bar-list" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="text-dark nav-link active" href="#">Home</a>
+                        <a class="text-dark nav-link" href="#" onclick="location.href = './order.html'">Order</a>
+                        <a class="text-dark nav-link active" href="#about">About</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    
+        <section id="jumbotron">
+            <div class="container">
+                <div id="jumbotron-text">
+                    <div class="row h-100">
+                        <div class="col-sm-12 my-auto">
+                            <h1 class="text-center"> de la Van ristorante.</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="recommended">
+            <div class="container">
+                <h5 class="text-light pt-3">Rekomendasi</h5>
+    
+                <div class="slider">
+                    <div class="slides">
+                        <div class="card">
+                            <img draggable="false" src="./assets/images/steak.png" class="card-img-top mx-auto p-3">
+                            <div class="card-body">
+                                <h5 class="f-bold mb-0">Steak</h5>
+                                <h5 class="text-secondary">Rp 83.000</h5>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img draggable="false" src="./assets/images/fried-rice.png" class="card-img-top mx-auto p-3">
+                            <div class="card-body">
+                                <h5 class="f-bold mb-0">Nasi Goreng</h5>
+                                <h5 class="text-secondary">Rp 32.000</h5>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img draggable="false" src="./assets/images/iced-coffee.png" class="card-img-top mx-auto p-3">
+                            <div class="card-body">
+                                <h5 class="f-bold mb-0">Ice Coffee</h5>
+                                <h5 class="text-secondary">Rp 20.000</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h5 class="text-light pt-5">About de la Van</h5>
+                <p class="text-light">Restoran kami dengan makanan khas indonesia dan italia yang menjadi tempat makanan pejabat.</p>
+            </div>
+        </section>
+    
+        <div id="footer" class="container">
+            <button type="button" class="w-100 btn btn-warning btn-rounded mb-3" onclick="location.href = './order.html'">
+                <h5 class="m-0 p-1 txt-default">
+                    Gass Order di sini
+                </h5>
+            </button>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/register.js"></script>
+</body>
+</html>

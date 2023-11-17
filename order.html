@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>de la Van resto | Order</title>
+
+    <link rel="icon" type="image/x-icon" href="assets/images/logo-192.png">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+</head>
+<body>
+    <div id="content-order">
+        <div class="border-bottom p-3 nav-order">
+            <span class="mr-3 back" onclick="location.href = './'">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                </svg>
+            </span>
+            <h5 class="text-center d-inline align-middle f-bold">Order Menu</h5>
+        </div>
+    
+        <div class="m-3 pb-3">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Cari" aria-label="Cari" id="search" autocomplete="off" onkeyup="searchMenu()">
+            </div>
+            <h4 class="pb-2 border-bottom ">Daftar Menu</h4>
+            
+            <div class="slider">
+                <div class="slides" id="list-menu">
+                    
+                </div>
+            </div>
+            <button class="btn btn-warning mt-3 border f-bold btn-rounded" type="button" onclick="addMenu()">Tambah</button>
+        </div>
+    
+        <div class="container">
+            <h6 class="text-center" id="alert"></h6>
+        </div>
+    
+        <div class="container">
+            <div id="list-beli">
+            </div>
+            <div class="div-total">
+                <div class="f-bold border-slice pt-2 pb-2">
+                    <span>Total</span>
+                    <span class="float-right" id="grandtotal">Rp.0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
